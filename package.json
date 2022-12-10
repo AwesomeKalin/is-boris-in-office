@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
 	"run": "node ./bin/index.js",
-	"publish": "np"
+	"publish": "np --no-tests"
   },
   "keywords": ["cli", "boris", "pm", "office"],
   "bin": {
