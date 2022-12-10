@@ -1,0 +1,21 @@
+{
+  "name": "is-boris-in-office",
+  "version": "0.0.1",
+  "description": "Is Boris Johnson back as PM?",
+  "main": "./bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"run": "node ./bin/index.js",
+	"publish": "np"
+  },
+  "keywords": ["cli", "boris", "pm", "office"],
+  "bin": {
+	  "is-boris-in-office": "./bin/index.js"
+  },
+  "author": "AwesomeKalin55",
+  "license": "MIT",
+  "devDependencies": {
+    "np": "^7.6.2"
+  }
+}
